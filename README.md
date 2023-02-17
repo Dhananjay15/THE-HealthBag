@@ -1,6 +1,6 @@
 # THE-HealthBag
 [DEMO](https://salmon-glacier-07cc42e10.2.azurestaticapps.net)<br>
-This project is an end to end data science project that is able to predict the chances of getting various types of diseases.
+This project is an end to end data science project which is able to predict the chances of getting various types of diseases.
 
 # Dataset Used
 1. [Covid](https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence): Symptoms and COVID Presence
