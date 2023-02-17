@@ -1,6 +1,5 @@
 # THE-HealthBag
-DEMO(https://salmon-glacier-07cc42e10.2.azurestaticapps.net)
-
+[DEMO](https://salmon-glacier-07cc42e10.2.azurestaticapps.net)<br>
 This project is an end to end data science project that is able to predict the chances of getting various types of diseases.
 
 # Dataset Used
@@ -18,5 +17,5 @@ This project is an end to end data science project that is able to predict the c
  6. HTML & CSS
 
  # Project Created by: 
-[Prachi Gupta](https://www.linkedin.com/in/prachig17/) and 
+[Prachi Gupta](https://www.linkedin.com/in/prachig17/)<br>
 [Dhananjay Dubey](https://www.linkedin.com/in/dhananjay-dubey/)  
