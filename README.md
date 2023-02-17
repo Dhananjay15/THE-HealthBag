@@ -16,5 +16,5 @@ This project is an end to end data science project that is able to predict the c
  6. HTML & CSS
 
  # Project Created by: 
-  [Prachi Gupta](https://www.linkedin.com/in/prachig17/)
-  [Dhananjay Dubey](https://www.linkedin.com/in/dhananjay-dubey/)  
+[Prachi Gupta](https://www.linkedin.com/in/prachig17/)
+[Dhananjay Dubey](https://www.linkedin.com/in/dhananjay-dubey/)  
