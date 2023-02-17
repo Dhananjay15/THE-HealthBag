@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/health.css">
+    <title>Health App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="nav">
+            <div class="head">
+                <img src="../images/output-onlinepngtools.png" class="logo">
+            </div>
+            <div class="links">
+               <a href="#boxabout" class="l" id="fs">About</a>
+                <a href="#service" class="l" id="fs2">Services</a>
+            </div>
+        </div>
+     <div class="slide-container">
+        <div class="i">
+               
+            <img src="../images/grpdoc.png" class="grp">
+            <div class="caption">
+                <h5 class="chotu"> Welcome to HealthBag</h5>
+                <p class="mainp">Empowering you to take charge of your health <br>
+                     with AI-driven disease prediction</p>
+                <a href="#boxabout">
+                    <button class="learn"> Learn more</button>
+
+                </a>
+            </div>
+            
+        </div>
+
+    </div> 
+    
+    <div id="boxabout">
+        <div class="boximage">
+            <img src="../images/bluerobo.gif">
+        </div>
+        <div class="aboutsec" id="about">
+            <p class="tablehead">About HealthBag</p></th>
+            <p class="tablepara">Our website is dedicated to using machine learning to improve disease prediction and prevention. 
+                We believe that with the power of data and algorithms, we can help people identify potential health risks and take proactive steps to maintain their wellbeing.</p></td>
+          
+            <div class="wedo">
+                <p class="tablehead">What We do ?</p>
+                <div class="dopara">
+                    <li>Gather relevant data from user</li>
+                    <li>Use accurate ML based model</li>
+                    <li>Multiple diseases prediction</li>
+                    <li>Gives accurate results</li>
+                    <li>Ensure data privacy and security</li>
+                </div>
+             </div>
+    
+             
+            <img src="../images/My project (1).png" class="this">
+             
+           
+        </div>
+        
+    </div>
+
+        </div>
+    </div>
+    <div class="card" id="service">
+        <div class="c1">
+            <div class="cardhead">
+                <h3>Our Services</h3>
+            </div>
+            <div id="cardpara">
+                <p>We offer complete healthcare to individuals with various<br> health concerns.</p>
+            </div>
+        </div>
+        <div class="c2">
+            <a  href="../template/heart.html">
+                <div class="card1">
+                    <img src="../images/newheart.png" alt="heart" class="imgheart">
+                   <span>Heart Disease</span> 
+                </div>
+            </a>
+            
+            <a  href="../template/diabetes.html">
+            
+            <div class="card1">
+                <img src="../images/output-onlinepngtools (5).png" alt="heart" class="imgkidney">
+                <span>Diabetes</span> 
+
+            </div>
+        </a>
+        <a  href="../template/liver.html">
+
+            <div class="card1">
+                <img src="../images/output-onlinepngtools (2).png" alt="heart" class="imgkidney">
+                <span>Liver Disease</span> 
+
+            </div>
+        </a>
+        <a  href="../template/covid.html">
+
+            <div class="card1">
+                <img src="../images/output-onlinepngtools (6).png" alt="heart" class="imgkidney">
+                <span>Covid</span> 
+
+            </div>
+        </a>
+
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+            <p>DISCLAIMER: Our website provides disease prediction solely for informational purposes.
+                The predictions are not intended to be a substitute for professional medical advice, diagnosis, or treatment.</p>
+        </div> 
+
+        </div>
+        
+       
+    </div>
+    
+</div>
+</body>
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open('HEAD', 'https://liverapi.onrender.com/predict_liver', true);
+xhr.send();
+</script>
+<script>
+var xhr1 = new XMLHttpRequest();
+xhr1.open('HEAD', 'https://heartapi.onrender.com/predict_heart', true);
+xhr1.send();
+</script>
+<script>
+var xhr2 = new XMLHttpRequest();
+xhr2.open('HEAD', 'https://diabetesapi.onrender.com/predict_diabetes', true);
+xhr2.send();
+</script>
+<script>
+var xhr3 = new XMLHttpRequest();
+xhr3.open('HEAD', 'https://covidapi-97mi.onrender.com/predict_covid', true);
+xhr3.send();
+</script>
+</html>
+  
